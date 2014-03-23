@@ -7,14 +7,11 @@
  * Organization: Code 4 Kenya
  * URI: http://code4kenya.org
  *
- * Author: David Lemayian
- * URI: http://davidlemayian.com
- *
  */
  
 body {
  	padding-top: 20px;
- 	padding-bottom: 40px;
+ 	padding-bottom: 50px;
 }
 
 .masthead ul{
@@ -79,8 +76,8 @@ body {
 	text-align: center;
 }
 .footer img{
-	opacity: 0.7;
- 	height: 100px;
+	opacity: 0.5;
+ 	height: 120px;
  }
  
  	.footer img:hover{
@@ -89,14 +86,20 @@ body {
  	
 .partners{
 	text-align: center;
-	margin-bottom: 0;
-	margin-top: 70px;
+	margin-bottom: 10px;
+	height:60px !important; 
 }
-	.partners img{
-		padding: 10px;
-		opacity: 0.75;
-		height: 100px;
-	}
-	.partners img:hover{
-		opacity: 1.0;
-	}
+.partners img{
+	padding: 10px;
+	opacity: 0.75;
+	height: 55px;
+}
+.partners img:hover{
+	opacity: 1.0;
+}
+.supporting{
+	text-align:left;
+}
+.implementing{
+	text-align:right;
+}

@@ -6,10 +6,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>GotToVote! Ke | By Code4Kenya</title>
-        <meta name="description" content="Find an IEBC registration centre nearest to you. By Code4Kenya.">
+        <title>Malawi Vote | Find Your Registration Centre</title>
+        <meta name="description" content="Find an MEC registration centre nearest to you.">
         <meta name="viewport" content="width=device-width">
-        <meta property="og:image" content="http://code4kenya.org/images/logo_5.png"/>
+        <meta property="og:image" content="img/c4a.png"/>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
@@ -34,16 +34,16 @@
         			<li class="active"><a href="/">Home</a></li>
         			<li><a href="about.html">About</a></li>
         		</ul>
-        		<!--<h3 class="muted">Got To Vote! Ke</h3>-->
-        		<a href="/"><img src="img/logo_2.png" alt="GotToVote Logo" /></a>
+        		<h1 class="pull-left">MalawiVote</h1>
+        		<div class="clearfix"></div>
         	</div>
         	
-        	<hr>
+        	<hr style="margin-top: 10px;">
         	
         	<div class="jumbotron" id="jumbotron">
         		<h1>Register as a Voter Today!</h1>
-        		<p class="lead">Voter registration for the Kenya 2013 Elections has begun. Find a voter registration centre and register to vote.</p>
-        		<a class="btn btn-large btn-success" href="#" id="findlink" onclick="$('#find').scrollTop();">Find a Registration Centre</a>
+        		<p class="lead">Voter registration for the Malawi 2014 Elections has begun. Find a voter registration centre and register to vote.</p>
+        		<a class="btn btn-large btn-inverse" href="#" id="findlink" onclick="$('#find').scrollTop();">Find a Registration Centre</a>
         	</div>
         	
         	<hr />
@@ -56,7 +56,7 @@
         			<h4>Who qualifies to register as a voter?</h4>
         			<p>In order to qualify as a voter, one must:</p>
         			<ul>
-        				<li><p>Be a Kenyan citizen</p></li>
+        				<li><p>Be a Malawian citizen</p></li>
         				<li><p>Be 18 years old and above</p></li>
         			</ul>
         			
@@ -91,108 +91,35 @@
 	        	<div class="row-fluid marketing" style="margin-top: 20px; margin-bottom: 10px;">
 	        		<div class="span4">
 	        			<div>
-	        				<p class="lead">County</p>
+	        				<p class="lead">District</p>
 	        				<select id="county_select">
-	        				
-	        				
-	        					<option value="0">Select a County</option>
-	        					<option value="30">Baringo</option>
-	        					<option value="36">Bomet</option>
-	        					<option value="39">Bungoma</option>
-	        					<option value="40">Busia</option>
-	        					<option value="28">Elgeyo/Marakwet</option>
-	        					<option value="14">Embu</option>
-	        					<option value="7">Garissa</option>
-	        					<option value="43">Homa Bay</option>
-	        					<option value="11">Isiolo</option>
-	        					<option value="34">Kajiado</option>
-	        					<option value="37">Kakamega</option>
-	        					<option value="35">Kericho</option>
-	        					<option value="22">Kiambu</option>
-	        					<option value="3">Kilifi</option>
-	        					<option value="20">Kirinyaga</option>
-	        					<option value="45">Kisii</option>
-	        					<option value="42">Kisumu</option>
-	        					<option value="15">Kitui</option>
-	        					<option value="2">Kwale</option>
-	        					<option value="31">Laikipia</option>
-	        					<option value="5">Lamu</option>
-	        					<option value="16">Machakos</option>
-	        					<option value="17">Makueni</option>
-	        					<option value="9">Mandera</option>
-	        					<option value="10">Marsabit</option>
-	        					<option value="12">Meru</option>
-	        					<option value="44">Migori</option>
-	        					<option value="1">Mombasa</option>
-	        					<option value="21">Murang'a</option>
-	        					<option value="47">Nairobi</option>
-	        					<option value="32">Nakuru</option>
-	        					<option value="29">Nandi</option>
-	        					<option value="33">Narok</option>
-	        					<option value="46">Nyamira</option>
-	        					<option value="18">Nyandarua</option>
-	        					<option value="19">Nyeri</option>
-	        					<option value="25">Samburu</option>
-	        					<option value="41">Siaya</option>
-	        					<option value="6">Taita Taveta</option>
-	        					<option value="4">Tana River</option>
-	        					<option value="13">Tharaka - Nithi</option>
-	        					<option value="26">Trans Nzoia</option>
-	        					<option value="23">Turkana</option>
-	        					<option value="27">Uasin Gishu</option>
-	        					<option value="38">Vihiga</option>
-	        					<option value="8">Wajir</option>
-	        					<option value="24">West Pokot</option>
-	        					
-	        					<!--
-	        					<option value="1">Mombasa</option>
-	        					<option value="2">Kwale</option>
-	        					<option value="3">Kilifi</option>
-	        					<option value="4">Tana River</option>
-	        					<option value="5">Lamu</option>
-	        					<option value="6">Taita Taveta</option>
-	        					<option value="7">Garissa</option>
-	        					<option value="8">Wajir</option>
-	        					<option value="9">Mandera</option>
-	        					<option value="10">Marsabit</option>
-	        					<option value="11">Isiolo</option>
-	        					<option value="12">Meru</option>
-	        					<option value="13">Tharaka - Nithi</option>
-	        					<option value="14">Embu</option>
-	        					<option value="15">Kitui</option>
-	        					<option value="16">Machakos</option>
-	        					<option value="17">Makueni</option>
-	        					<option value="18">Nyandarua</option>
-	        					<option value="19">Nyeri</option>
-	        					<option value="20">Kirinyaga</option>
-	        					<option value="21">Murang'a</option>
-	        					<option value="22">Kiambu</option>
-	        					<option value="23">Turkana</option>
-	        					<option value="24">West Pokot</option>
-	        					<option value="25">Samburu</option>
-	        					<option value="26">Trans Nzoia</option>
-	        					<option value="27">Uasin Gishu</option>
-	        					<option value="28">Elgeyo/Marakwet</option>
-	        					<option value="29">Nandi</option>
-	        					<option value="30">Baringo</option>
-	        					<option value="31">Laikipia</option>
-	        					<option value="32">Nakuru</option>
-	        					<option value="33">Narok</option>
-	        					<option value="34">Kajiado</option>
-	        					<option value="35">Kericho</option>
-	        					<option value="36">Bomet</option>
-	        					<option value="37">Kakamega</option>
-	        					<option value="38">Vihiga</option>
-	        					<option value="39">Bungoma</option>
-	        					<option value="40">Busia</option>
-	        					<option value="41">Siaya</option>
-	        					<option value="42">Kisumu</option>
-	        					<option value="43">Homa Bay</option>
-	        					<option value="44">Migori</option>
-	        					<option value="45">Kisii</option>
-	        					<option value="46">Nyamira</option>
-	        					<option value="47">Nairobi</option>
-	        					-->
+								<option value="0">Select District</option>
+	        					<option value='1'>CHITIPA</option>
+								<option value='2'>KARONGA</option>
+								<option value='3'>RUMPHI</option>
+								<option value='4'>NKHATABAY</option>
+								<option value='5'>LIKOMA</option>
+								<option value='7'>KASUNGU</option>
+								<option value='8'>NKHOTAKOTA</option>
+								<option value='9'>NTCHISI</option>
+								<option value='10'>DOWA</option>
+								<option value='11'>SALIMA</option>
+								<option value='12'>MCHINJI</option>
+								<option value='13'>LILONGWE</option>
+								<option value='14'>DEDZA</option>
+								<option value='15'>NTCHEU</option>
+								<option value='16'>MANGOCHI</option>
+								<option value='17'>BALAKA</option>
+								<option value='18'>MACHINGA</option>
+								<option value='20'>CHIRADZULU</option>
+								<option value='21'>BLANTYRE</option>
+								<option value='22'>MWANZA</option>
+								<option value='23'>NENO</option>
+								<option value='24'>THYOLO</option>
+								<option value='25'>PHALOMBE</option>
+								<option value='26'>MULANJE</option>
+								<option value='27'>CHIKHWAWA</option>
+								<option value='28'>NSANJE</option>
 	        				</select>
 	        			</div>
 	        		</div>
@@ -200,7 +127,7 @@
 	        			<div style="text-align: center;">
 	        				<p class="lead">Constituency</p>
 	        				<select id="const_select">
-	        					<option value="0">- Select a County First -</option>
+	        					<option value="0">- Select a District First -</option>
 	        				</select>
 	        			</div>
 	        		</div>
@@ -208,7 +135,7 @@
 	        			<div style="text-align: center;">
 	        				<p class="lead">Ward</p>
 	        				<select id="ward_select">
-	        					<option value="0">- Select a County First -</option>
+	        					<option value="0">- Select a District First -</option>
 	        				</select>
 	        			</div>
 	        		</div>
@@ -236,27 +163,35 @@
         		<h3>Get Social</h3>
         		<p> 
         		<a href="javascript:void(0);" name="Share_TW" title="Share on Twitter | GotToVote! Ke"
-        		onClick='window.open("http://twitter.com/home?status=Register%20as%20a%20voter%20today!%20Find%20a%20registration%20center%20on%20http://gottovote.code4kenya.org%20%23GotToVote%20by%20@Code4Kenya","GotToVote","width=550,height=270");'><img src="img/social/twitter.png" alt="Share on Twitter" /></a>
+        		onClick='window.open("http://twitter.com/home?status=Register%20as%20a%20voter%20today!%20Find%20a%20registration%20center%20on%20http://gottovote.Code4Kenya.org%20%23GotToVote%20by%20@Code4Kenya","GotToVote","width=550,height=270");'><img src="img/social/twitter.png" alt="Share on Twitter" /></a>
         		<a href="javascript:void(0);" name="Share_FB" title="Share on FB | GotToVote! Ke"
-        		onClick='window.open("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgottovote.code4kenya.org%2F&t=Register+as+a+voter+today!+Find+a+registration+center+on+Got+To+Vote.","GotToVote","width=550,height=270");'><img src="img/social/facebook.png" alt="Share on Facebook" /></a>
-        		<a href="https://plus.google.com/share?url=gottovote.code4kenya.org" onclick="javascript:window.open(this.href,
+        		onClick='window.open("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgottovote.Code4Kenya.org%2F&t=Register+as+a+voter+today!+Find+a+registration+center+on+Got+To+Vote.","GotToVote","width=550,height=270");'><img src="img/social/facebook.png" alt="Share on Facebook" /></a>
+        		<a href="https://plus.google.com/share?url=gottovote.Code4Kenya.org" onclick="javascript:window.open(this.href,
         		  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="img/social/googleplus.png" alt="Share on Google Plus" /></a>
         		</p>
         	</div>
         	
-        	<div style="text-align:center;">
+        	<div style="text-align:center">
         		<a class="twitter-timeline" width="auto" href="https://twitter.com/search?q=%23GotToVote" data-widget-id="271009484485304320">Tweets about "#GotToVote"</a>
         		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        	</div>
-        	
+             </div>
         	<hr>
         	
         	<div class="footer">
-        		<a href="http://code4kenya.org" target="_blank"><img src="img/c4k.png" alt="Code 4 Kenya" style="height: 80px;" /></a>
-                <a href="http://codeforafrica.org" target="_blank"><img src="img/c4a.png" alt="Code 4 Africa" /></a>
-        	</div>
+				<div class="supporting partners" style="float:left">
+					Supported By<br />
+					<a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="AMI"/></a>
+					<a href="http://www.icfj.org/" target="_blank"><img src="img/logos/icfj.png" alt="ICFJ"/></a>
+					<a href="http://wbi.worldbank.org/wbi/" target="_blank"><img src="img/logos/wbi.png" alt="World Bank Initiative"></a>
+				</div>
+				<div class="implementing partners" style="float:right">
+					A Project By <br />
+					<a href="http://codeforafrica.org" target="_blank"><img src="img/c4a.png" alt="CodeForAfrica"/></a>
+				</div>
+				<div class="clearfix"></div>
+        	</div><!-- /.footer -->
         	
-            </div>
+        </div>
         
         <!-- Scripts -->
 
