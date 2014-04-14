@@ -9,8 +9,10 @@
 @section('content')
     <div class="jumbotron">
 		<h1 class="text-info">Confirm Your Registration Today!</h1>
-		<p class="lead">Voter registration confirmation for the Malawi 2014 Elections has begun. Confirm your registration information here.</p>
+		<p class="lead">Voter registration confirmation for the Malawi 2014 Elections has begun. Verify your registration status by sending a <b>FREE SMS</b> to <b>5VOTE (58683)</b> with you Voter ID number.</p>
+		<p  class="text-info">You can also confirm your registration information here.</p>
 		<p><a class="btn btn-lg btn-info" href="/verify" >Confirm Registration</a></p>
+		
 		<p class="text-muted"><small>Powered by Malawi Electoral Commission</small></p>
 	</div>
 
