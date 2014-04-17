@@ -45,7 +45,7 @@
 						<h4>Registration Status:</h4>
 						<?php echo $message; ?>
 						<hr />
-						<p class="text-center text-danger"><b>If there are any problems with your registration details, please visit your nearest MEC office.</b></p>
+						<p class="text-center text-danger"><b>If there are any problems with your registration details, please visit your nearest Verification Centre</b></p>
 						<hr />
 						<a href="http://mec.org.mw">
 							<table><tr>
