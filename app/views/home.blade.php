@@ -49,7 +49,7 @@
 
 @section('footer-top')
 	<div class="container">
-		<img src="/assets/img/people5.png" alt="" style="width: 100%;"/>
+		<img src="/assets/img/people6.png" alt="" style="width: 100%;"/>
 	</div>	
 	<div class="footer bg-info">
 		<div class="container">
@@ -60,7 +60,7 @@
 					<p>GotToVote started off as a simple experiment to make data otherwise locked in government, useful to the general public.</p>
 					<p>MalawiVote builds on this same principle and is proudly brought to you by <a href="http://mec.org.mw/" target="_blank">Malawi Electoral Commission</a>, <a href="http://www.codeforafrica.org/" target="_blank">Code for Africa</a>, <a href="http://wbi.worldbank.org/" target="_blank">World Bank</a>, <a href="http://africanmediainitiative.org">African Media Initiative</a>, <a href="http://hivos.org" target="_blank">Hivos</a>, <a href="http://www.osisa.org/" target="_blank">Open Society Initiative for Southern Africa</a> and <a href="http://www.smagmedia.net" target="_blank">Smag Media</a>.</p>
 					<br />
-					<p><a href="/about" class="btn btn-default">Read More...</a></p>
+					<p><a href="/about" class="btn btn-info">Read More...</a></p>
 				</div>
 				<div class="col-md-6">
 					<a class="twitter-timeline" href="https://twitter.com/search?q=%23GotToVote" data-widget-id="443862671192903680">Tweets about "#GotToVote"</a>

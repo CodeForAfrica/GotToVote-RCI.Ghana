@@ -6,8 +6,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>GotToVote!</title>
-		<meta name="description" content="">
+		<title>GotToVote! Malawi</title>
+		<meta name="description" content="Confirm your registration for Malawi 2014 elections here!">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -44,14 +44,14 @@
 			<div class="marketing">
 				<p class="social-icons text-center">
 					<a href="javascript:void(0);" name="Share_TW" title="Share on Twitter | GotToVote! Ke"
-					onClick='window.open("http://twitter.com/home?status=Register%20as%20a%20voter%20today!%20Find%20a%20registration%20center%20on%20http://gottovote.code4kenya.org%20%23GotToVote%20by%20@Code4Kenya","GotToVote","width=550,height=270");'>
+					onClick='window.open("http://twitter.com/home?status=Confirm%20your%20registration%20today%20on%20http://gottovote.malawivote2014.org%20%23GotToVote%20%235VOTE","GotToVote","width=550,height=270");'>
 						<img src="/assets/img/socialicons/tw.png" alt="" />
 					</a>
 					<a href="javascript:void(0);" name="Share_FB" title="Share on FB | GotToVote! Ke"
-					onClick='window.open("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgottovote.code4kenya.org%2F&t=Register+as+a+voter+today!+Find+a+registration+center+on+Got+To+Vote.","GotToVote","width=550,height=270");'>
+					onClick='window.open("http://www.facebook.com/sharer.php?u=http%3A%2F%2Fgottovote.malawivote2014.org%2F&t=Confirm+your+registration+today!+#GotToVote.mw+#5VOTE.","GotToVote","width=550,height=270");'>
 						<img src="/assets/img/socialicons/fb.png" alt="" />
 					</a>
-					<a href="https://plus.google.com/share?url=gottovote.code4kenya.org" onclick="javascript:window.open(this.href,
+					<a href="https://plus.google.com/share?url=gottovote.malawivote2014.org" onclick="javascript:window.open(this.href,
 					'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
 						<img src="/assets/img/socialicons/gp.png" alt="" />
 					</a>
