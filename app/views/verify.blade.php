@@ -13,7 +13,7 @@
 			<h2>Verify That You Are Registered</h2>
 		</div>
 		
-		<form method="post" >
+		<form method="post" action="#status">
 			<div class="row">
 				<div class="col-md-6">
 					<label for="reg_no">Registration Number:</label>
@@ -41,6 +41,7 @@
 					<p class="text-muted"><small>Using GotToVote's Voter Registration Confirmation API <sup>TM</sup></small></p>
 				</div>
 				<div class="col-md-6">
+					<a name="status"></a>
 					<div class="well">
 						<h4>Registration Status:</h4>
 						<?php echo $message; ?>
