@@ -10,6 +10,8 @@
 		<meta name="description" content="Confirm your registration for Malawi 2014 elections here!">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
+		<meta name="google-site-verification" content="xr3aitcsV5RkZBVEdvj3oH2Z28ZvplxkMVwdfhE0R1A" />
+		
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		
 		<link rel="stylesheet" href="/assets/css/frontend.css">
