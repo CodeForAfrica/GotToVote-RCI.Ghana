@@ -15,3 +15,8 @@ Route::get('/', 'HomeController@showWelcome');
 Route::get('/verify', 'VerificationController@getIndex');
 Route::post('/verify', 'VerificationController@verifyRegistration');
 Route::get('/about', 'HomeController@showAbout');
+
+App::missing(function($exception)
+{
+    return Response::view('errors.404', array(), 404);
+});
