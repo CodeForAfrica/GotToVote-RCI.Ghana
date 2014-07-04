@@ -174,14 +174,14 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 
 	),
-	
+
 	/*
 	|--------------------------------------------------------------------------
 	| GotToVote Specific Configs
 	|--------------------------------------------------------------------------
 	|
 	*/
-	
+
 	'gtv' => array(
 		'api' => array(
 			'url' => '',
@@ -191,6 +191,7 @@ return array(
 			'public_key' => '',
 			'private_key' => '',
 		),
+		'closed' => 1,
 	),
 
 );
