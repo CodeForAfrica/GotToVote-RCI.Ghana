@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Malawi Vote | Find Your Registration Centre</title>
+        <title>GotToVote Ghana | Find Your Registration Centre</title>
         <meta name="description" content="Find an MEC registration centre nearest to you.">
         <meta name="viewport" content="width=device-width">
         <meta property="og:image" content="img/c4a.png"/>
@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" href="css/style.css">
-        
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -27,126 +27,104 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        
+
         <div class="container-narrow">
         	<div class="masthead">
         		<ul class="nav nav-pills pull-right">
         			<li class="active"><a href="/">Home</a></li>
         			<li><a href="about.html">About</a></li>
         		</ul>
-        		<h1 class="pull-left">MalawiVote</h1>
+        		<h1 class="pull-left">GotToVote Ghana</h1>
         		<div class="clearfix"></div>
         	</div>
-        	
+
         	<hr style="margin-top: 10px;">
-        	
+
         	<div class="jumbotron" id="jumbotron">
         		<h1>Register as a Voter Today!</h1>
-        		<p class="lead">Voter registration for the Malawi 2014 Elections has begun. Find a voter registration centre and register to vote.</p>
+        		<p class="lead">Voter registration for the Ghana 2016 Elections has begun. Find a voter registration centre and register to vote.</p>
         		<a class="btn btn-large btn-inverse" href="#" id="findlink" onclick="$('#find').scrollTop();">Find a Registration Centre</a>
         	</div>
-        	
+
         	<hr />
-        	
+
         	<div class="row-fluid marketing">
         		<div class="span6">
         			<h4>What is voter registration?</h4>
         			<p>Voter registration is the process of entering details of qualified persons including their National Identity Card or Passport numbers in a register or list of voters.</p>
-        			
+
         			<h4>Who qualifies to register as a voter?</h4>
         			<p>In order to qualify as a voter, one must:</p>
         			<ul>
-        				<li><p>Be a Malawian citizen</p></li>
+        				<li><p>Be a citizen of Ghana</p></li>
         				<li><p>Be 18 years old and above</p></li>
         			</ul>
-        			
+
         			<h4>Can a person transfer as a voter to another registration centre or constituency?</h4>
         			<p>YES! A person may transfer as a voter to another registration centre within the constituency or outside the constituency. The person is required to present himself/ herself to the particular registration centre or constituency if he/she meets the requirements.</p>
-        			
+
         		</div>
         		<div class="span6">
         			<h4>Why register as a voter?</h4>
         			<p>Registering as a voter will give you the opportunity to elect leaders for your country at the national and county levels. You can only participate in elections if you are a registered voter. It is your right and duty as a responsible citizen to elect your leaders.</p>
-        			
+
         			<h4>Where can you register as a voter?</h4>
         			<p>You can register as a voter at any designated voter registration within the county assembly ward or the constituency where you wish to vote.</p>
-        			
+
         			<h4>What is the role of a voter in ensuring the register is accurate?</h4>
         			<p>It is the responsibility of each registered voter to inspect the register and inform the registration officers of any corrections they wish made in the register of voters on their particulars.</p>
         		</div>
         	</div>
-        	<!--
-        	<table align="center"><tr><td>
-        		<ul class="nav nav-pills" style="display: inline-block;">
-        			<li><a href="#" id="see_more">See more...</a></li>
-        		</ul>
-        	</td></tr></table>-->
         	<a name="find" id="find"></a>
         	<hr />
-        	
-			
+
+
 			<div id="find-reg" style="text-align: center;">
 				<h2>Find A Registration Centre!</h2>
-			
+
 	        	<div class="row-fluid marketing" style="margin-top: 20px; margin-bottom: 10px;">
 	        		<div class="span4">
 	        			<div>
-	        				<p class="lead">District</p>
+	        				<p class="lead">Region</p>
 	        				<select id="county_select">
-								<option value="0">Select District</option>
-	        					<option value='1'>CHITIPA</option>
-								<option value='2'>KARONGA</option>
-								<option value='3'>RUMPHI</option>
-								<option value='4'>NKHATABAY</option>
-								<option value='5'>LIKOMA</option>
-								<option value='7'>KASUNGU</option>
-								<option value='8'>NKHOTAKOTA</option>
-								<option value='9'>NTCHISI</option>
-								<option value='10'>DOWA</option>
-								<option value='11'>SALIMA</option>
-								<option value='12'>MCHINJI</option>
-								<option value='13'>LILONGWE</option>
-								<option value='14'>DEDZA</option>
-								<option value='15'>NTCHEU</option>
-								<option value='16'>MANGOCHI</option>
-								<option value='17'>BALAKA</option>
-								<option value='18'>MACHINGA</option>
-								<option value='20'>CHIRADZULU</option>
-								<option value='21'>BLANTYRE</option>
-								<option value='22'>MWANZA</option>
-								<option value='23'>NENO</option>
-								<option value='24'>THYOLO</option>
-								<option value='25'>PHALOMBE</option>
-								<option value='26'>MULANJE</option>
-								<option value='27'>CHIKHWAWA</option>
-								<option value='28'>NSANJE</option>
+                    <option value="0">Select Region</option>
+                    <option value="1">Accra</option>
+                    <option value="2">Volta</option>
+                    <option value="3">Western</option>
 	        				</select>
 	        			</div>
 	        		</div>
 	        		<div class="span4">
 	        			<div style="text-align: center;">
-	        				<p class="lead">Constituency</p>
+	        				<p class="lead">District</p>
 	        				<select id="const_select">
-	        					<option value="0">- Select a District First -</option>
+	        					<option value="0">- Select a Region First -</option>
 	        				</select>
 	        			</div>
 	        		</div>
 	        		<div class="span4">
 	        			<div style="text-align: center;">
-	        				<p class="lead">Ward</p>
+	        				<p class="lead">Electoral Area</p>
 	        				<select id="ward_select">
-	        					<option value="0">- Select a District First -</option>
+	        					<option value="0">- Select a Region First -</option>
 	        				</select>
 	        			</div>
 	        		</div>
 	        	</div>
-	        	
+
 	        	<div id="found-reg" style="display: none;">
+              <table class="table table-hover" style="margin-bottom: 0;">
+                <thead><tr><td>
+                  <h4>Registration Centres in <span id="header-name">Region</span></h4>
+                </td></tr></thead>
+                <tbody id="reg-centres">
+                </tbody>
+              </table>
 	        		<table class="table table-hover" style="margin-bottom: 0;">
 	        			<thead><tr><td>
-	        				<h4>Registration Centres in <span id="header-name"> County</span></h4>
+	        				<h4>Other Polling Stations</h4>
 	        			</td></tr></thead>
-	        			<tbody id="reg-centres">
+	        			<tbody id="other-centres">
 	        				<tr><td>
 	        					<p><img src="img/spinner.gif" alt="" />
 	        						Finding registration centres...
@@ -156,12 +134,12 @@
 	        		</table>
 	        	</div>
 	        </div>
-        	
+
         	<hr style="margin-top: 90px;"/>
-        	
+
         	<div class="social-icons">
         		<h3>Get Social</h3>
-        		<p> 
+        		<p>
         		<a href="javascript:void(0);" name="Share_TW" title="Share on Twitter | GotToVote! Ke"
         		onClick='window.open("http://twitter.com/home?status=Register%20as%20a%20voter%20today!%20Find%20a%20registration%20center%20on%20http://gottovote.Code4Kenya.org%20%23GotToVote%20by%20@Code4Kenya","GotToVote","width=550,height=270");'><img src="img/social/twitter.png" alt="Share on Twitter" /></a>
         		<a href="javascript:void(0);" name="Share_FB" title="Share on FB | GotToVote! Ke"
@@ -170,29 +148,29 @@
         		  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="img/social/googleplus.png" alt="Share on Google Plus" /></a>
         		</p>
         	</div>
-        	
+
         	<div style="text-align:center">
         		<a class="twitter-timeline" width="auto" href="https://twitter.com/search?q=%23GotToVote" data-widget-id="271009484485304320">Tweets about "#GotToVote"</a>
         		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
              </div>
         	<hr>
-        	
+
         	<div class="footer">
-				<div class="supporting partners" style="float:left">
-					Supported By<br />
-					<a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="AMI"/></a>
-					<a href="http://www.icfj.org/" target="_blank"><img src="img/logos/icfj.png" alt="ICFJ"/></a>
-					<a href="http://wbi.worldbank.org/wbi/" target="_blank"><img src="img/logos/wbi.png" alt="World Bank Initiative"></a>
-				</div>
-				<div class="implementing partners" style="float:right">
-					A Project By <br />
-					<a href="http://codeforafrica.org" target="_blank"><img src="img/c4a.png" alt="CodeForAfrica"/></a>
-				</div>
-				<div class="clearfix"></div>
+    				<div class="supporting partners" style="float:left">
+    					Supported By<br />
+    					<a href="http://africanmediainitiative.org" target="_blank"><img src="img/logos/ami.png" alt="AMI"/></a>
+    					<a href="http://www.icfj.org/" target="_blank"><img src="img/logos/icfj.png" alt="ICFJ"/></a>
+    					<a href="http://wbi.worldbank.org/wbi/" target="_blank"><img src="img/logos/wbi.png" alt="World Bank Initiative"></a>
+    				</div>
+    				<div class="implementing partners" style="float:right">
+    					A Project By <br />
+    					<a href="http://codeforafrica.org" target="_blank"><img src="img/c4a.png" alt="CodeForAfrica"/></a>
+    				</div>
+    				<div class="clearfix"></div>
         	</div><!-- /.footer -->
-        	
+
         </div>
-        
+
         <!-- Scripts -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
