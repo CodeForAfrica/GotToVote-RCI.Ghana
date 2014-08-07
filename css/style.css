@@ -1,20 +1,20 @@
 /*
  * Voter Registration Centres Stylesheet
  * -------------------------------------
- * 
+ *
  * This is a stylesheet to overide bootstrap elements and introduce new styling elements.
  *
- * Organization: Code 4 Kenya
- * URI: http://code4kenya.org
+ * Organization: Code for Africa
+ * URI: http://www.codeforafrica.org
  *
  */
- 
+
 body {
  	padding-top: 20px;
  	padding-bottom: 50px;
 }
 
-.masthead ul{
+.masthead ul {
 	margin-top: 23px;
 }
 .masthead img{
@@ -25,14 +25,11 @@ body {
 	margin: 0 auto;
  	max-width: 700px;
 }
-.container-narrow > hr {
- 	margin: 30px 0;
-}
- 
+
 /* Main marketing message and sign up button */
 .jumbotron {
-	margin: 60px 0;
 	text-align: center;
+  background-color: #fff;
 }
 .jumbotron h1 {
 	font-size: 72px;
@@ -55,15 +52,15 @@ body {
 	margin-top: 28px;
 }
 
-#found-reg{
+#found-reg {
 	margin: 10px auto;
 	display: inline-block;
 }
-	#found-reg td{
+	#found-reg td {
 		text-align: center;
 	}
 
-.social-icons{
+.social-icons {
 	text-align: center;
 	margin: 10px 0 20px;
 }
@@ -72,34 +69,34 @@ body {
 	}
 
 
-.footer{
+.footer {
 	text-align: center;
 }
-.footer img{
+.footer img {
 	opacity: 0.5;
  	height: 120px;
  }
- 
- 	.footer img:hover{
+
+ 	.footer img:hover {
  		opacity: 1.0;
  	}
- 	
-.partners{
+
+.partners {
 	text-align: center;
 	margin-bottom: 10px;
-	height:60px !important; 
+	height:60px !important;
 }
-.partners img{
+.partners img {
 	padding: 10px;
 	opacity: 0.75;
-	height: 55px;
+	height: 65px;
 }
-.partners img:hover{
+.partners img:hover {
 	opacity: 1.0;
 }
-.supporting{
+.supporting {
 	text-align:left;
 }
-.implementing{
+.implementing {
 	text-align:right;
 }
