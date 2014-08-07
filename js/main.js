@@ -80,8 +80,10 @@ const_sel.onchange = function() {
 				if (ward_code.length==0) {
 					ward_code[0] = json_result.rows[i][5];
 					ward_name[0] = json_result.rows[i][6];
-					centre_code[0] = json_result.rows[i][7];
-					centre_name[0] = json_result.rows[i][8];
+					ward_reg_code[0] = json_result.rows[0][7];
+					ward_reg_name[0] = json_result.rows[0][8];
+					centre_code[0] = json_result.rows[i][0];
+					centre_name[0] = json_result.rows[i][9];
 				} else {
 					var ward_already = 0;
 					for (var c = 0; c < ward_code.length; c++) {
