@@ -88,11 +88,11 @@ body {
 }
 .partners img {
 	padding: 10px;
-	opacity: 0.75;
+	opacity: 1.0;
 	height: 65px;
 }
 .partners img:hover {
-	opacity: 1.0;
+	opacity: 0.6;
 }
 .supporting {
 	text-align:left;
